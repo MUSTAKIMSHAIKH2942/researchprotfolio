@@ -1,6 +1,9 @@
 services:
   - type: web
     name: javed-portfolio
-    runtime: static
+    runtime: node
     buildCommand: pnpm install && pnpm run build
-    staticPublishPath: ./dist
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
