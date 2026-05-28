@@ -70,7 +70,6 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent;
-  padding-top: clamp(60px, 10vw, 80px);
 }
 
 /* -------------------------------- */
@@ -149,10 +148,7 @@ p {
 /* -------------------------------- */
 
 .site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  position: relative;
   z-index: 999;
 
   background: rgba(255, 255, 255, 0.82);
@@ -237,7 +233,7 @@ p {
 
 .profile-panel {
   position: sticky;
-  top: clamp(70px, 12vw, 100px);
+  top: clamp(1rem, 2vw, 2rem);
 
   height: fit-content;
 }
