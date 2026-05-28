@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: javed-portfolio
+    runtime: static
+    buildCommand: pnpm install && pnpm run build
+    staticPublishPath: ./dist
