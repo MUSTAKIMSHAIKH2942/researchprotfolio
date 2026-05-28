@@ -1,0 +1,35 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
+
+import App from './App';
+import Resume from './pages/Resume';
+
+import './styles.css';
+
+ReactDOM.createRoot(
+  document.getElementById('root')!
+).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        {/* MAIN PORTFOLIO */}
+        <Route
+          path="/"
+          element={<App />}
+        />
+
+        {/* RESUME PAGE */}
+        <Route
+          path="/resume"
+          element={<Resume />}
+        />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
+);
