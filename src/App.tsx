@@ -233,33 +233,8 @@ function App() {
               research.
             </h1>
 
-            <p className="hero-description">
-              Postgraduate researcher in
-              Pharmacology and Toxicology
-              at NIPER Mohali with
-              research interests in
-              neuroinflammation,
-              ischemic stroke therapy,
-              and CNS drug development.
-            </p>
-
-            {/* HERO HIGHLIGHTS */}
-
-            <div className="hero-highlights">
-              <span>
-                AIR 69 – NIPER JEE 2025
-              </span>
-
-              <span>
-                GPAT Rank 67
-              </span>
-
-              <span>
-                NIPER Mohali
-              </span>
-            </div>
-
-            {/* ABOUT CARD */}
+           
+            
 
             <motion.div
               className="about-card"
