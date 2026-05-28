@@ -236,74 +236,54 @@ function App() {
            
             
 
-            <motion.div
-              className="about-card"
-              initial={{
-                opacity: 0,
-                y: 30,
-              }}
-              animate={{
-                opacity: 1,
-                y: 0,
-              }}
-              transition={{
-                delay: 0.3,
-              }}
-            >
-              <p>
-                I am currently pursuing
-                M.S. (Pharm.) in
-                Pharmacology and
-                Toxicology at NIPER
-                Mohali with academic and
-                research interests in
-                neuropharmacology,
-                neuroinflammation, and
-                preclinical
-                pharmacology.
-              </p>
+           <motion.div
+  className="about-card"
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.3 }}
+>
+  <p>
+    I’m a Pharmacologist and Biomedical Research Enthusiast driven by a strong
+    passion for neuroscience, stroke therapeutics, and next-generation
+    healthcare innovation. My work focuses on integrating pharmacology,
+    nanomedicine, biomedical engineering, and AI-driven approaches to develop
+    impactful solutions for neurological disorders and targeted therapy systems.
+  </p>
 
-              <p>
-                My research exposure
-                includes projects related
-                to ischemic stroke
-                therapy and cannabinoid
-                receptor-mediated
-                neuroinflammation with
-                experience in in vivo
-                studies, drug
-                evaluation, and
-                experimental data
-                analysis using GraphPad
-                Prism.
-              </p>
+  <p>
+    Currently, I am working on a research project focused on
+    <strong> self-propelled micromotors for ischemic stroke therapy</strong>,
+    designed to enhance targeted thrombus removal and improve the precision of
+    stroke treatment. This research reflects my deep interest in translational
+    medicine, advanced drug delivery systems, and innovative biomedical
+    technologies that can transform patient care.
+  </p>
 
-              <p>
-                I am interested in CNS
-                drug development,
-                translational
-                pharmacology, and
-                therapeutic research
-                focused on neurological
-                disorders.
-              </p>
+  <p>
+    I enjoy working on ideas that bridge scientific research with real-world
+    healthcare applications and actively seek opportunities to contribute
+    through research, innovation, consultancy, and collaborative scientific
+    communities. My goal is to contribute to meaningful advancements in
+    biomedical science and help build technologies that improve healthcare
+    outcomes globally.
+  </p>
 
-              <div className="chip-grid about-tags">
-                <SkillTag label="Neuropharmacology" />
+  <p>
+    Passionate about continuous learning and innovation, I aspire to be part of
+    communities and organizations shaping the future of medicine through
+    science, technology, and impactful research.
+  </p>
 
-                <SkillTag label="Preclinical Research" />
-
-                <SkillTag label="Neuroinflammation" />
-
-                <SkillTag label="CNS Drug Development" />
-
-                <SkillTag label="Drug Evaluation" />
-
-                <SkillTag label="GraphPad Prism" />
-
-                <SkillTag label="Pharmacology" />
-              </div>
-            </motion.div>
+  <div className="chip-grid about-tags">
+    <SkillTag label="Neuropharmacology" />
+    <SkillTag label="Preclinical Research" />
+    <SkillTag label="Neuroinflammation" />
+    <SkillTag label="CNS Drug Development" />
+    <SkillTag label="Drug Evaluation" />
+    <SkillTag label="GraphPad Prism" />
+    <SkillTag label="Pharmacology" />
+  </div>
+</motion.div>
 
             {/* HERO BUTTONS */}
 

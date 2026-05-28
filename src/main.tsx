@@ -29,6 +29,12 @@ ReactDOM.createRoot(
           path="/resume"
           element={<Resume />}
         />
+
+        {/* FALLBACK */}
+        <Route
+          path="*"
+          element={<App />}
+        />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
