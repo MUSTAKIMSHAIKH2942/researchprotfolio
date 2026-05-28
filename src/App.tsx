@@ -474,13 +474,11 @@ function App() {
                     </span>
                   </div>
 
-                  {item.description && (
-                    <p>
-                      {
-                        item.description
-                      }
-                    </p>
-                  )}
+             
+                {'description' in item && item.description && (
+                <p>{item.description}</p>
+                )}
+
                 </motion.div>
               )
             )}
