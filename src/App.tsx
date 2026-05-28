@@ -501,7 +501,7 @@ function App() {
         >
           <SectionHeading
             title="Documents"
-            subtitle="Academic Documents"
+            subtitle="Academic "
           />
 
           <div className="document-layout">
